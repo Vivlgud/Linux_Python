@@ -1,0 +1,187 @@
+сен 18 22:53:25 userpc systemd[45454]: Queued start job for default target Main User Target.
+сен 18 22:53:25 userpc systemd[45454]: Created slice User Application Slice.
+сен 18 22:53:25 userpc systemd[45454]: Created slice User Background Tasks Slice.
+сен 18 22:53:25 userpc systemd[45454]: Created slice User Core Session Slice.
+сен 18 22:53:25 userpc systemd[45454]: Started Pending report trigger for Ubuntu Report.
+сен 18 22:53:25 userpc systemd[45454]: Reached target Paths.
+сен 18 22:53:25 userpc systemd[45454]: Reached target Timers.
+сен 18 22:53:25 userpc systemd[45454]: Starting D-Bus User Message Bus Socket...
+сен 18 22:53:25 userpc systemd[45454]: Listening on GnuPG network certificate management daemon.
+сен 18 22:53:25 userpc systemd[45454]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+сен 18 22:53:25 userpc systemd[45454]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+сен 18 22:53:25 userpc systemd[45454]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+сен 18 22:53:25 userpc systemd[45454]: Listening on GnuPG cryptographic agent and passphrase cache.
+сен 18 22:53:25 userpc systemd[45454]: Listening on PipeWire Multimedia System Socket.
+сен 18 22:53:25 userpc systemd[45454]: Listening on debconf communication socket.
+сен 18 22:53:25 userpc systemd[45454]: Listening on Sound System.
+сен 18 22:53:25 userpc systemd[45454]: Listening on REST API socket for snapd user session agent.
+сен 18 22:53:25 userpc systemd[45454]: Listening on D-Bus User Message Bus Socket.
+сен 18 22:53:25 userpc systemd[45454]: Reached target Sockets.
+сен 18 22:53:25 userpc systemd[45454]: Reached target Basic System.
+сен 18 22:53:25 userpc systemd[45454]: Started PipeWire Multimedia Service.
+сен 18 22:53:25 userpc systemd[45454]: Started PipeWire Media Session Manager.
+сен 18 22:53:25 userpc systemd[45454]: Starting Sound Service...
+сен 18 22:53:25 userpc systemd[45454]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+сен 18 22:53:25 userpc systemd[45454]: Starting Tracker metadata extractor...
+сен 18 22:53:25 userpc systemd[45454]: Started D-Bus User Message Bus.
+сен 18 22:53:25 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] AppArmor D-Bus mediation is enabled
+сен 18 22:53:25 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.1' (uid=1001 pid=45465 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+сен 18 22:53:25 userpc systemd[45454]: Starting Virtual filesystem service...
+сен 18 22:53:25 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.3' (uid=1001 pid=45464 comm="/usr/bin/snap run snapd-desktop-integration " label="unconfined")
+сен 18 22:53:25 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Successfully activated service 'org.gtk.vfs.Daemon'
+сен 18 22:53:25 userpc systemd[45454]: Started Virtual filesystem service.
+сен 18 22:53:25 userpc systemd[45454]: Starting flatpak document portal service...
+сен 18 22:53:25 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.4' (uid=1001 pid=45534 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+сен 18 22:53:25 userpc systemd[45454]: Starting sandboxed app permission store...
+сен 18 22:53:25 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+сен 18 22:53:25 userpc systemd[45454]: Started sandboxed app permission store.
+сен 18 22:53:25 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Successfully activated service 'org.freedesktop.portal.Documents'
+сен 18 22:53:25 userpc systemd[45454]: Started flatpak document portal service.
+сен 18 22:53:25 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Files' unit='tracker-miner-fs-3.service' requested by ':1.1' (uid=1001 pid=45465 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+сен 18 22:53:25 userpc pipewire[45461]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+сен 18 22:53:25 userpc pipewire[45461]: mod.rt: could not set nice-level to -11: Отказано в доступе
+сен 18 22:53:25 userpc systemd[45454]: Starting Tracker file system data miner...
+сен 18 22:53:25 userpc tracker-miner-f[45582]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+сен 18 22:53:25 userpc tracker-miner-f[45582]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+сен 18 22:53:25 userpc tracker-miner-f[45582]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+сен 18 22:53:25 userpc tracker-miner-f[45582]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+сен 18 22:53:25 userpc tracker-miner-f[45582]: Unable to get XDG user directory path for special directory &DOWNLOAD. Ignoring this location.
+сен 18 22:53:25 userpc tracker-miner-f[45582]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+сен 18 22:53:25 userpc tracker-miner-f[45582]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+сен 18 22:53:25 userpc tracker-miner-f[45582]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+сен 18 22:53:25 userpc tracker-miner-f[45582]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+сен 18 22:53:25 userpc pipewire-media-session[45462]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+сен 18 22:53:25 userpc pipewire-media-session[45462]: mod.rt: could not make thread 45570 realtime using RTKit: Отказано в доступе
+сен 18 22:53:25 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.8' (uid=1001 pid=45582 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+сен 18 22:53:25 userpc snapd-desktop-i[45621]: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+сен 18 22:53:25 userpc snapd-desktop-i[45621]: Failed to do gtk init. Waiting for a new session with desktop capabilities.
+сен 18 22:53:25 userpc snapd-desktop-i[45621]: Checking session /org/freedesktop/login1/session/_32...
+сен 18 22:53:25 userpc systemd[45454]: Starting Virtual filesystem service - disk device monitor...
+сен 18 22:53:26 userpc pipewire[45461]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+сен 18 22:53:26 userpc pipewire[45461]: mod.rt: could not make thread 45604 realtime using RTKit: Отказано в доступе
+сен 18 22:53:26 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+сен 18 22:53:26 userpc systemd[45454]: Started Virtual filesystem service - disk device monitor.
+сен 18 22:53:26 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.8' (uid=1001 pid=45582 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+сен 18 22:53:26 userpc systemd[45454]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+сен 18 22:53:26 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+сен 18 22:53:26 userpc systemd[45454]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+сен 18 22:53:26 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.8' (uid=1001 pid=45582 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+сен 18 22:53:26 userpc systemd[45454]: Starting Virtual filesystem service - digital camera monitor...
+сен 18 22:53:26 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+сен 18 22:53:26 userpc systemd[45454]: Started Virtual filesystem service - digital camera monitor.
+сен 18 22:53:26 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.8' (uid=1001 pid=45582 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+сен 18 22:53:26 userpc systemd[45454]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+сен 18 22:53:26 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Activating service name='org.gnome.OnlineAccounts' requested by ':1.13' (uid=1001 pid=45639 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+сен 18 22:53:26 userpc snapd-desktop-i[45621]: Detected new session 850 at /org/freedesktop/login1/session/_3850
+сен 18 22:53:26 userpc systemd[45454]: Started Sound Service.
+сен 18 22:53:26 userpc goa-daemon[45643]: goa-daemon version 3.44.0 starting
+сен 18 22:53:26 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Activating service name='org.gnome.Identity' requested by ':1.15' (uid=1001 pid=45643 comm="/usr/libexec/goa-daemon " label="unconfined")
+сен 18 22:53:26 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Successfully activated service 'org.gnome.OnlineAccounts'
+сен 18 22:53:26 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+сен 18 22:53:26 userpc systemd[45454]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+сен 18 22:53:26 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.8' (uid=1001 pid=45582 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+сен 18 22:53:26 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Successfully activated service 'org.gnome.Identity'
+сен 18 22:53:26 userpc systemd[45454]: Starting Virtual filesystem service - Apple File Conduit monitor...
+сен 18 22:53:26 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+сен 18 22:53:26 userpc systemd[45454]: Started Virtual filesystem service - Apple File Conduit monitor.
+сен 18 22:53:26 userpc sudo[45704]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+сен 18 22:53:26 userpc sudo[45704]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+сен 18 22:53:26 userpc dbus-daemon[45510]: [session uid=1001 pid=45510] Successfully activated service 'org.freedesktop.Tracker3.Miner.Files'
+сен 18 22:53:26 userpc systemd[45454]: Started Tracker file system data miner.
+сен 18 22:53:26 userpc systemd[45454]: Started Tracker metadata extractor.
+сен 18 22:53:26 userpc systemd[45454]: Reached target Main User Target.
+сен 18 22:53:26 userpc systemd[45454]: Startup finished in 732ms.
+сен 18 22:53:26 userpc sudo[45704]: pam_unix(sudo:session): session closed for user root
+сен 18 22:53:26 userpc snapd-desktop-i[45621]: Detected new session 851 at /org/freedesktop/login1/session/_3851
+сен 18 22:53:26 userpc sudo[45779]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+сен 18 22:53:26 userpc sudo[45779]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+сен 18 22:53:26 userpc sudo[45779]: pam_unix(sudo:session): session closed for user root
+сен 18 22:53:27 userpc snapd-desktop-i[45621]: Detected new session 852 at /org/freedesktop/login1/session/_3852
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+сен 18 22:53:29 userpc snapd-desktop-i[45621]: Detected new session 861 at /org/freedesktop/login1/session/_3861
+сен 18 22:53:29 userpc snapd-desktop-i[45621]: Detected new session 862 at /org/freedesktop/login1/session/_3862
+сен 18 22:53:29 userpc snapd-desktop-i[45621]: Detected new session 863 at /org/freedesktop/login1/session/_3863
+сен 18 22:53:29 userpc snapd-desktop-i[45621]: Detected new session 864 at /org/freedesktop/login1/session/_3864
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+сен 18 22:53:31 userpc snapd-desktop-i[45621]: Detected new session 870 at /org/freedesktop/login1/session/_3870
+сен 18 22:53:31 userpc snapd-desktop-i[45621]: Detected new session 871 at /org/freedesktop/login1/session/_3871
+сен 18 22:53:31 userpc snapd-desktop-i[45621]: Detected new session 872 at /org/freedesktop/login1/session/_3872
+сен 18 22:53:31 userpc snapd-desktop-i[45621]: Detected new session 873 at /org/freedesktop/login1/session/_3873
+сен 18 22:53:32 userpc snapd-desktop-i[45621]: Detected new session 874 at /org/freedesktop/login1/session/_3874
+сен 18 22:53:32 userpc snapd-desktop-i[45621]: Detected new session 875 at /org/freedesktop/login1/session/_3875
+сен 18 22:53:32 userpc snapd-desktop-i[45621]: Detected new session 876 at /org/freedesktop/login1/session/_3876
+сен 18 22:53:32 userpc snapd-desktop-i[45621]: Detected new session 877 at /org/freedesktop/login1/session/_3877
+сен 18 22:53:33 userpc snapd-desktop-i[45621]: Detected new session 878 at /org/freedesktop/login1/session/_3878
+сен 18 22:53:33 userpc snapd-desktop-i[45621]: Detected new session 879 at /org/freedesktop/login1/session/_3879
+сен 18 22:53:33 userpc snapd-desktop-i[45621]: Detected new session 880 at /org/freedesktop/login1/session/_3880
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+сен 18 22:53:35 userpc snapd-desktop-i[45621]: Detected new session 887 at /org/freedesktop/login1/session/_3887
+сен 18 22:53:35 userpc snapd-desktop-i[45621]: Detected new session 888 at /org/freedesktop/login1/session/_3888
+сен 18 22:53:35 userpc snapd-desktop-i[45621]: Detected new session 889 at /org/freedesktop/login1/session/_3889
+сен 18 22:53:35 userpc snapd-desktop-i[45621]: Detected new session 890 at /org/freedesktop/login1/session/_3890
+сен 18 22:53:35 userpc snapd-desktop-i[45621]: Detected new session 891 at /org/freedesktop/login1/session/_3891
+сен 18 22:53:36 userpc snapd-desktop-i[45621]: Detected new session 892 at /org/freedesktop/login1/session/_3892
+сен 18 22:53:36 userpc snapd-desktop-i[45621]: Detected new session 893 at /org/freedesktop/login1/session/_3893
+сен 18 22:53:36 userpc snapd-desktop-i[45621]: Detected new session 894 at /org/freedesktop/login1/session/_3894
+сен 18 22:53:36 userpc snapd-desktop-i[45621]: Detected new session 895 at /org/freedesktop/login1/session/_3895
+сен 18 22:53:37 userpc snapd-desktop-i[45621]: Detected new session 896 at /org/freedesktop/login1/session/_3896
+сен 18 22:53:37 userpc snapd-desktop-i[45621]: Detected new session 897 at /org/freedesktop/login1/session/_3897
+сен 18 22:53:37 userpc snapd-desktop-i[45621]: Detected new session 898 at /org/freedesktop/login1/session/_3898
+сен 18 22:53:37 userpc snapd-desktop-i[45621]: Detected new session 899 at /org/freedesktop/login1/session/_3899
+сен 18 22:53:38 userpc snapd-desktop-i[45621]: Detected new session 900 at /org/freedesktop/login1/session/_3900
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+сен 18 22:53:40 userpc snapd-desktop-i[45621]: Detected new session 909 at /org/freedesktop/login1/session/_3909
+сен 18 22:53:40 userpc snapd-desktop-i[45621]: Detected new session 910 at /org/freedesktop/login1/session/_3910
+сен 18 22:53:40 userpc snapd-desktop-i[45621]: Detected new session 911 at /org/freedesktop/login1/session/_3911
+сен 18 22:53:40 userpc snapd-desktop-i[45621]: Detected new session 912 at /org/freedesktop/login1/session/_3912
+сен 18 22:53:41 userpc snapd-desktop-i[45621]: Detected new session 913 at /org/freedesktop/login1/session/_3913
+сен 18 22:53:41 userpc snapd-desktop-i[45621]: Detected new session 914 at /org/freedesktop/login1/session/_3914
+сен 18 22:53:41 userpc snapd-desktop-i[45621]: Detected new session 915 at /org/freedesktop/login1/session/_3915
+сен 18 22:53:41 userpc snapd-desktop-i[45621]: Detected new session 916 at /org/freedesktop/login1/session/_3916
+сен 18 22:53:41 userpc snapd-desktop-i[45621]: Detected new session 917 at /org/freedesktop/login1/session/_3917
+сен 18 22:53:42 userpc snapd-desktop-i[45621]: Detected new session 918 at /org/freedesktop/login1/session/_3918
+сен 18 22:53:42 userpc snapd-desktop-i[45621]: Detected new session 919 at /org/freedesktop/login1/session/_3919
+сен 18 22:53:42 userpc snapd-desktop-i[45621]: Detected new session 920 at /org/freedesktop/login1/session/_3920
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+сен 18 22:53:44 userpc snapd-desktop-i[45621]: Detected new session 927 at /org/freedesktop/login1/session/_3927
+сен 18 22:53:44 userpc snapd-desktop-i[45621]: Detected new session 928 at /org/freedesktop/login1/session/_3928
+сен 18 22:53:44 userpc snapd-desktop-i[45621]: Detected new session 929 at /org/freedesktop/login1/session/_3929
+сен 18 22:53:44 userpc snapd-desktop-i[45621]: Detected new session 930 at /org/freedesktop/login1/session/_3930
+сен 18 22:53:45 userpc snapd-desktop-i[45621]: Detected new session 931 at /org/freedesktop/login1/session/_3931
+сен 18 22:53:45 userpc snapd-desktop-i[45621]: Detected new session 932 at /org/freedesktop/login1/session/_3932
+сен 18 22:53:45 userpc snapd-desktop-i[45621]: Detected new session 933 at /org/freedesktop/login1/session/_3933
+сен 18 22:53:45 userpc snapd-desktop-i[45621]: Detected new session 934 at /org/freedesktop/login1/session/_3934
+сен 18 22:53:46 userpc snapd-desktop-i[45621]: Detected new session 935 at /org/freedesktop/login1/session/_3935
+сен 18 22:53:46 userpc snapd-desktop-i[45621]: Detected new session 936 at /org/freedesktop/login1/session/_3936
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+сен 18 22:53:48 userpc snapd-desktop-i[45621]: Detected new session 944 at /org/freedesktop/login1/session/_3944
+сен 18 22:53:48 userpc snapd-desktop-i[45621]: Detected new session 945 at /org/freedesktop/login1/session/_3945
+сен 18 22:53:48 userpc snapd-desktop-i[45621]: Detected new session 946 at /org/freedesktop/login1/session/_3946
+сен 18 22:53:48 userpc snapd-desktop-i[45621]: Detected new session 947 at /org/freedesktop/login1/session/_3947
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+сен 18 22:53:51 userpc snapd-desktop-i[45621]: Detected new session 957 at /org/freedesktop/login1/session/_3957
+сен 18 22:53:51 userpc snapd-desktop-i[45621]: Detected new session 958 at /org/freedesktop/login1/session/_3958
+сен 18 22:53:51 userpc snapd-desktop-i[45621]: Detected new session 959 at /org/freedesktop/login1/session/_3959
+сен 18 22:53:51 userpc snapd-desktop-i[45621]: Detected new session 960 at /org/freedesktop/login1/session/_3960
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+сен 18 22:53:52 userpc snapd-desktop-i[45621]: Detected new session 962 at /org/freedesktop/login1/session/_3962
+сен 18 22:53:52 userpc snapd-desktop-i[45621]: Detected new session 963 at /org/freedesktop/login1/session/_3963
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
